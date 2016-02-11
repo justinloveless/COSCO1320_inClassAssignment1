@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-class ChildrenRide {
+class ChildrenRide : public ParkRide  {
 private :
 	static int numOfChildrenRides;
 	int maxAge;

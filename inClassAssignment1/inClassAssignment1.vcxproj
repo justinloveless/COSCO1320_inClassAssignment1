@@ -146,6 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ChildrenRide.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ParkRide.cpp" />
     <ClCompile Include="TeenageRide.cpp" />

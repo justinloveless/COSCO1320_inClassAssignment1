@@ -148,6 +148,12 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Carousel.h" />
+    <ClInclude Include="RollerCoaster.h" />
+    <ClInclude Include="Train.h" />
+    <ClInclude Include="Viking.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

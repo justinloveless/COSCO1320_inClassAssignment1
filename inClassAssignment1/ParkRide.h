@@ -4,7 +4,7 @@
 using namespace std;
 class ParkRide {
 private:
-	static int nuOfParkRides;
+	static int numOfParkRides;
 	string rideName;
 public:
 	ParkRide();

@@ -146,10 +146,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Carousel.cpp" />
     <ClCompile Include="ChildrenRide.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ParkRide.cpp" />
     <ClCompile Include="TeenageRide.cpp" />
+    <ClCompile Include="Train.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Carousel.h" />

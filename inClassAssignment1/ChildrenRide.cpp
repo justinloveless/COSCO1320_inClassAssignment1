@@ -6,7 +6,7 @@ using namespace std;
 
 ChildrenRide::ChildrenRide(): maxAge(-1)
 {
-	return getRideName();
+
 
 }
 

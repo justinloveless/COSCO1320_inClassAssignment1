@@ -1,5 +1,6 @@
 #ifndef CHILDRENRIDE_H
 #define CHILDRENRIDE_H
+#include "ParkRide.h"
 #include <iostream>
 using namespace std;
 

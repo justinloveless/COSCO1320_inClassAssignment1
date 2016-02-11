@@ -147,10 +147,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ParkRide.cpp" />
+    <ClCompile Include="TeenageRide.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Carousel.h" />
+    <ClInclude Include="ChildrenRide.h" />
+    <ClInclude Include="ParkRide.h" />
     <ClInclude Include="RollerCoaster.h" />
+    <ClInclude Include="TeenageRide.h" />
     <ClInclude Include="Train.h" />
     <ClInclude Include="Viking.h" />
   </ItemGroup>

@@ -7,3 +7,11 @@ Viking::Viking() : TeenageRide()
 {
 	numOfViking++;
 }
+Viking::Viking(string, int)
+{
+
+}
+void Viking::showInfo() const;
+{
+
+}

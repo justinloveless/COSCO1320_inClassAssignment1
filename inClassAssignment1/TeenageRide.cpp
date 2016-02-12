@@ -4,8 +4,8 @@ using namespace std;
 
 //default constructor
 TeenageRide::TeenageRide() : ParkRide() {
-	//only increment number of rides
-	numOfTeanageRides++;
+	minHeight = -1; //as per instructions, default is -1
+	numOfTeanageRides++; //increment number of rides
 }
 
 //parameratized constructor

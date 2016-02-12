@@ -4,6 +4,7 @@ using namespace std;
 
 /* Constructors */
 ParkRide::ParkRide() {
+	rideName = "Uninitialized"; //as per instructions, default is "Uninitialized"
 	numOfParkRides++; //incrememnt static int number of park rides
 }
 

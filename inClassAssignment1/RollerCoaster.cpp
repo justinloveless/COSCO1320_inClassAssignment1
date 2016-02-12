@@ -19,10 +19,3 @@ void RollerCoaster::showInfo() const
 	cout << "  Info: 10 min of twists, turns and drops." << endl;
 	restrictions();
 }
-void RollerCoaster::showInfo()const
-{
-	cout << "Rollercoaster Ride Type\n" << endl;
-	cout << "  Name:" << getRideName() << endl;
-	cout << "  Info: 10 min of twists, turns, and drops." << endl;
-	restrictions();
-}

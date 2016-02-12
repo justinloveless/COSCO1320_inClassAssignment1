@@ -1,17 +1,21 @@
-#include "Carousel.h"
-#include "ChildrenRide.h"
 #include <iostream>
 #include <string>
+#include "Carousel.h"
+#include "ChildrenRide.h"
+
 using namespace std;
 
-
+//default constructor
 Carousel::Carousel() : ChildrenRide()
 {}
 
+//parameratized constructor
 Carousel::Carousel(string nameOfRide, int maximumAge)
 	: ChildrenRide(nameOfRide, maximumAge)
-{}
+{} //passes values to ChildrenRide class
 
+
+//print function for final information of ride
 void Carousel::showInfo() const
 {
 	cout << "Carousel Type\n";

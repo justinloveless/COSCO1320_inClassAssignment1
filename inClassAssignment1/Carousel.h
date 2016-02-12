@@ -1,12 +1,9 @@
 #ifndef CAROUSEL_H
 #define CAROUSEL_H
-#include "ParkRide.h"
-#include "ChildrenRide.h"
-
 #include <iostream>
 #include <string>
+#include "ChildrenRide.h"
 using namespace std;
-
 
 class Carousel : public ChildrenRide {
 

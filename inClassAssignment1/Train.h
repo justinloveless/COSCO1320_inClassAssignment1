@@ -1,9 +1,8 @@
 #ifndef TRAIN_H
 #define TRAIN_H
-#include "ParkRide.h"
-#include "ChildrenRide.h"
-#include <iostream>
 #include <string>
+#include "ChildrenRide.h"
+
 using namespace std;
 
 

@@ -1,7 +1,8 @@
 #ifndef VIKING_H
 #define VIKING_H
+#include "TeenageRide.h"
 
-class Viking
+class Viking : public TeenageRide
 {
 public:
 	Viking();

@@ -14,7 +14,7 @@ public :
 	static int getNumOfChildrenRides();
 	int getMaxAge() const;
 	virtual void restrictions() const;
-	virtual void showInfor() const = 0;
+	virtual void showInfo() const = 0;
 
 };
 

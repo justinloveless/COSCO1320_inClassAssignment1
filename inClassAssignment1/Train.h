@@ -1,7 +1,8 @@
 #ifndef TRAIN_H
 #define TRAIN_H
+#include "ChildrenRide.h"
 
-class Train
+class Train : public ChildrenRide
 {
 public:
 	Train();

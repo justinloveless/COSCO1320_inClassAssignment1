@@ -1,7 +1,8 @@
 #ifndef ROLLERCOASTER_H
 #define ROLLERCOASTER_H
+#include "TeenageRide.h"
 
-class RollerCoaster
+class RollerCoaster : public TeenageRide
 {
 public:
 	RollerCoaster();

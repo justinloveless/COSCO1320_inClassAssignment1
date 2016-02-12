@@ -29,4 +29,5 @@ int main() {
 	delete rides[0];
 	delete rides[4];
 	delete[] rides;
-	return 0;}
+	return 0;
+}

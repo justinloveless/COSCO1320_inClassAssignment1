@@ -1,17 +1,20 @@
 #include <iostream>
 #include <string>
 #include "ChildrenRide.h"
+#include "ParkRide.h"
 using namespace std;
 
+int ChildrenRide::numOfChildrenRides = 0;
 
-ChildrenRide::ChildrenRide(): maxAge(-1)
+ChildrenRide::ChildrenRide() : ParkRide(), maxAge(-1)
 {
-
-
+	numOfChildrenRides++;
 }
 
-ChildrenRide::ChildrenRide(string, int)
+ChildrenRide::ChildrenRide(string nameOfRide, int maximumAge)
+	: ParkRide(nameOfRide), maxAge(maximumAge)
 {
+	numOfChildrenRides++;
 }
 
 int ChildrenRide::getNumOfChildrenRides()
@@ -26,5 +29,5 @@ int ChildrenRide::getMaxAge() const
 
 void ChildrenRide::restrictions() const
 {
-	cout << "Rule: maximum age: 7\n"
+	cout << "  Rule: maximum age: " << maxAge << endl;
 }

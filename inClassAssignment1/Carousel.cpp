@@ -15,7 +15,7 @@ Carousel::Carousel(string nameOfRide, int maximumAge)
 void Carousel::showInfo() const
 {
 	cout << "Carousel Type\n";
-	cout << "  Name: " << getRideNames() << endl;
+	cout << "  Name: " << getRideName() << endl;
 	cout << "  Info: 5 minutes on play horses." << endl;
 	restrictions();
 }

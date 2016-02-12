@@ -16,7 +16,7 @@ Train::Train(string nameOfRide, int ageRequirement)
 void Train::showInfo() const
 {
 	cout << "Train Type\n";
-	cout << "  Name: " << getRideNames() << endl;
+	cout << "  Name: " << getRideName() << endl;
 	cout << "  Info: 5 min train ride." << endl;
 	restrictions();
 }

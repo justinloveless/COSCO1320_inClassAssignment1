@@ -1,8 +1,9 @@
 #ifndef TEENAGERIDE_H
 #define TEENAGERIDE_H
 #include <iostream>
+#include "ParkRide.h"
 using namespace std;
-class TeenageRide {
+class TeenageRide : public ParkRide {
 private:
 	static int numOfTeanageRides;
 	int minHeight;
@@ -13,6 +14,5 @@ public:
 	int getMinHeight() const;
 	virtual void restrictions() const;
 	virtual void showInfo() const = 0;
-	void restrictions();
 };
 #endif // !TEENAGERIDE_H

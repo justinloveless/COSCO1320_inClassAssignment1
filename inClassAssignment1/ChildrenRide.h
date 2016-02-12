@@ -12,7 +12,7 @@ public :
 	ChildrenRide();
 	ChildrenRide(string, int);
 	static int getNumOfChildrenRides();
-	int getMaxAge() const; //look up what this means again
+	int getMaxAge() const;
 	virtual void restrictions() const;
 	virtual void showInfor() const = 0;
 

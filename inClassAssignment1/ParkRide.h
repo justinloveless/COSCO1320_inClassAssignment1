@@ -10,7 +10,7 @@ public:
 	ParkRide();
 	ParkRide(string);
 	static int getNumOfParkRides();
-	string getRideNames() const;
+	string getRideName() const;
 	virtual void restrictions() const = 0;
 	virtual void showInfo() const = 0;
 };

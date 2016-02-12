@@ -150,6 +150,7 @@
     <ClCompile Include="ChildrenRide.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ParkRide.cpp" />
+    <ClCompile Include="RollerCoaster.cpp" />
     <ClCompile Include="TeenageRide.cpp" />
     <ClCompile Include="Train.cpp" />
     <ClCompile Include="Viking.cpp" />

@@ -36,6 +36,9 @@
     <ClCompile Include="Viking.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RollerCoaster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Carousel.h">

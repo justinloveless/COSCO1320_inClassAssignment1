@@ -20,7 +20,7 @@ TeenageRide::TeenageRide(string _name, int _minHeight) : ParkRide(_name) {
 
 //print function for final output, to be inherited
 void TeenageRide::restrictions() const {
-	cout << "Rule: minimum height: " << minHeight << endl;
+	cout << "  Rule: minimum height: " << minHeight << endl;
 }
 
 /*

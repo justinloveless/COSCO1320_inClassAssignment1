@@ -2,6 +2,8 @@
 #include "TeenageRide.h"
 using namespace std;
 
+int TeenageRide::numOfTeanageRides = 0;
+
 //default constructor
 TeenageRide::TeenageRide() : ParkRide() {
 	minHeight = -1; //as per instructions, default is -1

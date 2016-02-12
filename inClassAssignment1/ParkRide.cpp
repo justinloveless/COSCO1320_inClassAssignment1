@@ -2,6 +2,8 @@
 #include "ParkRide.h"
 using namespace std;
 
+int ParkRide::numOfParkRides = 0;
+
 /* Constructors */
 ParkRide::ParkRide() {
 	rideName = "Uninitialized"; //as per instructions, default is "Uninitialized"
